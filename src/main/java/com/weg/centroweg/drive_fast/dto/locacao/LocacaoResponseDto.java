@@ -6,7 +6,7 @@ import com.weg.centroweg.drive_fast.dto.veiculo.VeiculoResponseDto;
 public record LocacaoResponseDto(
         Long id,
         Integer dias,
-        ClienteResponseDto cliente,
-        VeiculoResponseDto veiculo
+        String nomeCliente,
+        String nomeVeiculo
 ) {
 }

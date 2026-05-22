@@ -1,7 +1,8 @@
 package com.weg.centroweg.drive_fast.dto.cliente;
 
-public record ClienteRequestDto(
+public record ClienteCreateDto(
         String nome,
+        String cnh,
         String email
 ) {
 }

@@ -1,9 +1,8 @@
 package com.weg.centroweg.drive_fast.dto.cliente;
 
-public record ClienteResponseDto(
-        Long id,
+public record ClienteUpdateDto(
         String nome,
-        String cnh,
         String email
 ) {
+
 }
