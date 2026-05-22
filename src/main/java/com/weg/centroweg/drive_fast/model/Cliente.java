@@ -23,10 +23,15 @@ public class Cliente {
     private String nome;
 
     @Column(nullable = false)
+    private String cnh;
+
+    @Column(nullable = false)
     private String email;
 
-    public Cliente(String nome, String email) {
+
+    public Cliente(String nome, String cnh, String email) {
         this.nome = nome;
+        this.cnh = cnh;
         this.email = email;
     }
 }
